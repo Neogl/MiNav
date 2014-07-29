@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8317090719876FE400060341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8317090619876FE400060341 /* Foundation.framework */; };
+		8317090919876FE400060341 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8317090819876FE400060341 /* CoreGraphics.framework */; };
+		8317090B19876FE400060341 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8317090A19876FE400060341 /* UIKit.framework */; };
+		8317091119876FE400060341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8317090F19876FE400060341 /* InfoPlist.strings */; };
+		8317091319876FE400060341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8317091219876FE400060341 /* main.m */; };
+		8317091719876FE400060341 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8317091619876FE400060341 /* AppDelegate.m */; };
+		8317091A19876FE400060341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8317091819876FE400060341 /* Main.storyboard */; };
+		8317091D19876FE400060341 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8317091C19876FE400060341 /* ViewController.m */; };
+		8317091F19876FE400060341 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8317091E19876FE400060341 /* Images.xcassets */; };
+		8317092619876FE400060341 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8317092519876FE400060341 /* XCTest.framework */; };
+		8317092719876FE400060341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8317090619876FE400060341 /* Foundation.framework */; };
+		8317092819876FE400060341 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8317090A19876FE400060341 /* UIKit.framework */; };
+		8317093019876FE400060341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8317092E19876FE400060341 /* InfoPlist.strings */; };
+		8317093219876FE400060341 /* MiNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8317093119876FE400060341 /* MiNavTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8317092919876FE400060341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831708FB19876FE400060341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8317090219876FE400060341;
+			remoteInfo = MiNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8317090319876FE400060341 /* MiNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8317090619876FE400060341 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8317090819876FE400060341 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8317090A19876FE400060341 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8317090E19876FE400060341 /* MiNav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiNav-Info.plist"; sourceTree = "<group>"; };
+		8317091019876FE400060341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8317091219876FE400060341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8317091419876FE400060341 /* MiNav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiNav-Prefix.pch"; sourceTree = "<group>"; };
+		8317091519876FE400060341 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8317091619876FE400060341 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8317091919876FE400060341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8317091B19876FE400060341 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8317091C19876FE400060341 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8317091E19876FE400060341 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8317092419876FE400060341 /* MiNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8317092519876FE400060341 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8317092D19876FE400060341 /* MiNavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiNavTests-Info.plist"; sourceTree = "<group>"; };
+		8317092F19876FE400060341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8317093119876FE400060341 /* MiNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiNavTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8317090019876FE400060341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8317090919876FE400060341 /* CoreGraphics.framework in Frameworks */,
+				8317090B19876FE400060341 /* UIKit.framework in Frameworks */,
+				8317090719876FE400060341 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8317092119876FE400060341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8317092619876FE400060341 /* XCTest.framework in Frameworks */,
+				8317092819876FE400060341 /* UIKit.framework in Frameworks */,
+				8317092719876FE400060341 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831708FA19876FE400060341 = {
+			isa = PBXGroup;
+			children = (
+				8317090C19876FE400060341 /* MiNav */,
+				8317092B19876FE400060341 /* MiNavTests */,
+				8317090519876FE400060341 /* Frameworks */,
+				8317090419876FE400060341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8317090419876FE400060341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8317090319876FE400060341 /* MiNav.app */,
+				8317092419876FE400060341 /* MiNavTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8317090519876FE400060341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8317090619876FE400060341 /* Foundation.framework */,
+				8317090819876FE400060341 /* CoreGraphics.framework */,
+				8317090A19876FE400060341 /* UIKit.framework */,
+				8317092519876FE400060341 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8317090C19876FE400060341 /* MiNav */ = {
+			isa = PBXGroup;
+			children = (
+				8317091519876FE400060341 /* AppDelegate.h */,
+				8317091619876FE400060341 /* AppDelegate.m */,
+				8317091819876FE400060341 /* Main.storyboard */,
+				8317091B19876FE400060341 /* ViewController.h */,
+				8317091C19876FE400060341 /* ViewController.m */,
+				8317091E19876FE400060341 /* Images.xcassets */,
+				8317090D19876FE400060341 /* Supporting Files */,
+			);
+			path = MiNav;
+			sourceTree = "<group>";
+		};
+		8317090D19876FE400060341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8317090E19876FE400060341 /* MiNav-Info.plist */,
+				8317090F19876FE400060341 /* InfoPlist.strings */,
+				8317091219876FE400060341 /* main.m */,
+				8317091419876FE400060341 /* MiNav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8317092B19876FE400060341 /* MiNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				8317093119876FE400060341 /* MiNavTests.m */,
+				8317092C19876FE400060341 /* Supporting Files */,
+			);
+			path = MiNavTests;
+			sourceTree = "<group>";
+		};
+		8317092C19876FE400060341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8317092D19876FE400060341 /* MiNavTests-Info.plist */,
+				8317092E19876FE400060341 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8317090219876FE400060341 /* MiNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8317093519876FE400060341 /* Build configuration list for PBXNativeTarget "MiNav" */;
+			buildPhases = (
+				831708FF19876FE400060341 /* Sources */,
+				8317090019876FE400060341 /* Frameworks */,
+				8317090119876FE400060341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiNav;
+			productName = MiNav;
+			productReference = 8317090319876FE400060341 /* MiNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8317092319876FE400060341 /* MiNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8317093819876FE400060341 /* Build configuration list for PBXNativeTarget "MiNavTests" */;
+			buildPhases = (
+				8317092019876FE400060341 /* Sources */,
+				8317092119876FE400060341 /* Frameworks */,
+				8317092219876FE400060341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8317092A19876FE400060341 /* PBXTargetDependency */,
+			);
+			name = MiNavTests;
+			productName = MiNavTests;
+			productReference = 8317092419876FE400060341 /* MiNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831708FB19876FE400060341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ourtrip;
+				TargetAttributes = {
+					8317092319876FE400060341 = {
+						TestTargetID = 8317090219876FE400060341;
+					};
+				};
+			};
+			buildConfigurationList = 831708FE19876FE400060341 /* Build configuration list for PBXProject "MiNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 831708FA19876FE400060341;
+			productRefGroup = 8317090419876FE400060341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8317090219876FE400060341 /* MiNav */,
+				8317092319876FE400060341 /* MiNavTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8317090119876FE400060341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8317091F19876FE400060341 /* Images.xcassets in Resources */,
+				8317091119876FE400060341 /* InfoPlist.strings in Resources */,
+				8317091A19876FE400060341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8317092219876FE400060341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8317093019876FE400060341 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831708FF19876FE400060341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8317091D19876FE400060341 /* ViewController.m in Sources */,
+				8317091719876FE400060341 /* AppDelegate.m in Sources */,
+				8317091319876FE400060341 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8317092019876FE400060341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8317093219876FE400060341 /* MiNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8317092A19876FE400060341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8317090219876FE400060341 /* MiNav */;
+			targetProxy = 8317092919876FE400060341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8317090F19876FE400060341 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8317091019876FE400060341 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8317091819876FE400060341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8317091919876FE400060341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8317092E19876FE400060341 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8317092F19876FE400060341 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8317093319876FE400060341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8317093419876FE400060341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8317093619876FE400060341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiNav/MiNav-Prefix.pch";
+				INFOPLIST_FILE = "MiNav/MiNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8317093719876FE400060341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiNav/MiNav-Prefix.pch";
+				INFOPLIST_FILE = "MiNav/MiNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8317093919876FE400060341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiNav.app/MiNav";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiNav/MiNav-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MiNavTests/MiNavTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8317093A19876FE400060341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiNav.app/MiNav";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiNav/MiNav-Prefix.pch";
+				INFOPLIST_FILE = "MiNavTests/MiNavTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831708FE19876FE400060341 /* Build configuration list for PBXProject "MiNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8317093319876FE400060341 /* Debug */,
+				8317093419876FE400060341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8317093519876FE400060341 /* Build configuration list for PBXNativeTarget "MiNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8317093619876FE400060341 /* Debug */,
+				8317093719876FE400060341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8317093819876FE400060341 /* Build configuration list for PBXNativeTarget "MiNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8317093919876FE400060341 /* Debug */,
+				8317093A19876FE400060341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831708FB19876FE400060341 /* Project object */;
+}
